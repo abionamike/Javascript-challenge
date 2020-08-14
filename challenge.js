@@ -1,16 +1,16 @@
 // -------- Question 1 ---------------
 
-let firstName = 'string';
-let lastName = 'string';
-let email = 'string';
-let username = 'string';
-let dateOfBirth = 'string';
-let numberOfFriends = 'number';
-let numberOfFollowers = 'number';
+firstName = 'string';
+lastName = 'string';
+email = 'string';
+username = 'string';
+dateOfBirth = 'string';
+numberOfFriends = 'number';
+numberOfFollowers = 'number';
 
 
 // ------------- Question 2 -----------------
-
+// returns the highest value in an array
 function highestScore(scores){
     let answer = scores[0];
 
@@ -28,7 +28,7 @@ let highestValue = highestScore(scores);
 console.log(highestValue);
 
 // ------------ Question 3 ------------------
-
+// returns the sum of 1 to 100
 function sumOfHundred(){
     let x = 0;
     for(let i = 0; i < 101; i++){
@@ -39,6 +39,7 @@ function sumOfHundred(){
 console.log(sumOfHundred());
 
 // -------------- Question 4 ----------------------
+// returns the sum of odd numbers in a range
 
 function sumOfOdds(startOfRange, endOfRange){
     let sum = 0;
@@ -57,6 +58,7 @@ let ans = sumOfOdds(startOfRange, endOfRange);
 console.log(ans);
 
 // -------------- Question 5 ---------------------
+// returns the student with the higest score in an array of students
 
 function highestScorePupil(pupils) {
     array = [];
@@ -89,6 +91,7 @@ let highest = highestScorePupil(pupils)
 console.log(highest);
 
 // --------------- Question 6 -----------------------
+// A grading system
 
 function gradingSystem(score){
     if(score >= 0 && score <= 40){
@@ -154,6 +157,7 @@ let schoolStudents = [
 ];
 
 // ----------------- Question 7a -----------------
+// Returns the oldest student in an array of students
 
 function oldestStudent(schoolStudents){
     let array = [];
@@ -174,6 +178,7 @@ function oldestStudent(schoolStudents){
 console.log(oldestStudent(schoolStudents));
 
 // ----------------- Question 7b ----------------------
+// Returns the youngest student in an array of students
 
 function youngestStudent(schoolStudents){
     let array = [];
@@ -193,6 +198,7 @@ function youngestStudent(schoolStudents){
 console.log(youngestStudent(schoolStudents));
 
 // --------------- Question 7c -----------------
+// returns an object of students promoted, not promoted and almost missed promotion given a certain condition
 
 function functionObject(schoolStudents){
     let array = [];
@@ -247,7 +253,7 @@ console.log(functionObject(schoolStudents));
 
 // =====================================
 // =====================================
-
+// returns the student with the lowest score
 
 function lowestScoreStudent(schoolStudents){
     let array = [];
@@ -269,6 +275,7 @@ function lowestScoreStudent(schoolStudents){
 console.log(lowestScoreStudent(schoolStudents));
 
 // ------------------------------------
+// returns the student with the highest score
 
 function highestScoreStudent(schoolStudents){
     scores = []
